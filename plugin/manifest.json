@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sthuizen.tray-icon-fallback",
+  "name": "Tray icon cache fallback",
+  "version": "1.0.0",
+  "author": "Omarchy contributors; sthuizen",
+  "description": "Omarchy tray with filesystem fallback for stale Qt icon lookups",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Tray.qml"
+  },
+  "barWidget": {
+    "displayName": "Tray icon cache fallback",
+    "description": "Status notifier items",
+    "category": "Status",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.tray"
+  }
+}
